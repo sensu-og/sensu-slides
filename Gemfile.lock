@@ -7,13 +7,16 @@ GEM
     eventmachine (1.0.0)
     gli (1.6.0)
     json (1.7.7)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
     nokogiri (1.5.9)
     parslet (1.5.0)
       blankslate (~> 2.0)
     pdfkit (0.5.4)
-    rack (1.5.2)
-    rack-protection (1.5.0)
+    rack (2.2.2)
+    rack-protection (2.0.8.1)
       rack
+    ruby2_keywords (0.0.2)
     showoff (0.7.0)
       bluecloth
       gli (>= 1.3.2)
@@ -21,15 +24,16 @@ GEM
       nokogiri
       parslet
       sinatra
-    sinatra (1.4.2)
-      rack (~> 1.5, >= 1.5.2)
-      rack-protection (~> 1.4)
-      tilt (~> 1.3, >= 1.3.4)
+    sinatra (2.0.8.1)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.8.1)
+      tilt (~> 2.0)
     thin (1.5.0)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
-    tilt (1.3.6)
+    tilt (2.0.10)
 
 PLATFORMS
   ruby
